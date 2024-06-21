@@ -42,7 +42,7 @@ DOM_evolucion13.innerHTML = `evolucion13
         <div class="content">
             <div class="date">2000</div>
             <p>Sony PlayStation 2 (PS2): La consola más vendida de todos los tiempos, con una extensa biblioteca de juegos.</p>
-            <img src="https://th.bing.com/th/id/OIP.ZFnWpa3jNiPnXPs3etqH1AHaJP?rs=1&pid=ImgDetMain" alt="Sony PlayStation 2" style="width:80%">
+            <img src="https://th.bing.com/th/id/R.37bc8a061463e2c42dccd2acb882728c?rik=6u09Pby4Rfx5dA&pid=ImgRaw&r=0" alt="Sony PlayStation 2" style="width:80%">
         </div>
     </div>
     <div class="container left">
@@ -81,5 +81,4 @@ DOM_evolucion13.innerHTML = `evolucion13
         </div>
     </div>
 </div>
-
 `;
