@@ -1,16 +1,26 @@
+css
+Copiar código
 body {
     font-family: Arial, sans-serif;
 }
+<<<<<<< HEAD
 
 .timeline {
+=======
+.línea-de-tiempo {
+>>>>>>> aab452f77bff4421b2f633e4a10ae83e6a593ce0
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
     background-color: #26300b;
 }
+<<<<<<< HEAD
 
 .timeline::after {
+=======
+.línea-de-tiempo::after {
+>>>>>>> aab452f77bff4421b2f633e4a10ae83e6a593ce0
     content: '';
     position: absolute;
     width: 6px;
@@ -20,8 +30,12 @@ body {
     left: 50%;
     margin-left: -3px;
 }
+<<<<<<< HEAD
 
 .container {
+=======
+.contenedor {
+>>>>>>> aab452f77bff4421b2f633e4a10ae83e6a593ce0
     padding: 10px 40px;
     position: relative;
     background-color: inherit;
@@ -29,6 +43,7 @@ body {
     box-sizing: border-box;
     clear: both;
 }
+<<<<<<< HEAD
 
 .container.left {
     left: 0;
@@ -39,12 +54,22 @@ body {
 }
 
 .content {
+=======
+.contenedor.izquierda {
+    left: 0;
+}
+.contenedor.derecha {
+    left: 50%;
+}
+.contenido {
+>>>>>>> aab452f77bff4421b2f633e4a10ae83e6a593ce0
     padding: 20px;
     background-color: rgb(178, 37, 37);
     position: relative;
     border-radius: 6px;
     box-shadow: 0 2px 10px rgba(244, 235, 235, 0.1);
 }
+<<<<<<< HEAD
 
 .container.left .content {
     margin-left: 30px;
@@ -55,6 +80,15 @@ body {
 }
 
 .date {
+=======
+.contenedor.izquierda .contenido {
+    margin-left: 30px;
+}
+.contenedor.derecha .contenido {
+    margin-right: 30px;
+}
+.fecha {
+>>>>>>> aab452f77bff4421b2f633e4a10ae83e6a593ce0
     font-weight: bold;
     font-size: 18px;
 }
