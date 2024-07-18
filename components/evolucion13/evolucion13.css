@@ -1,39 +1,44 @@
-css
-Copiar código
 body {
     font-family: Arial, sans-serif;
 }
-.línea-de-tiempo {
+
+h2 {
+    text-align: center;
+    color: #4cb543;
+}
+
+.linea-tiempo {
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
     background-color: #a7dc16;
 }
-.línea-de-tiempo::after {
+
+.linea-tiempo::after {
     content: '';
     position: absolute;
     width: 6px;
-    background-color: #333;
     top: 0;
     bottom: 0;
     left: 50%;
     margin-left: -3px;
 }
-.contenedor {
+
+.contenedor-izquierda, .contenedor-derecha {
     padding: 10px 40px;
     position: relative;
-    background-color: inherit;
     width: 50%;
-    box-sizing: border-box;
-    clear: both;
 }
-.contenedor.izquierda {
+
+.contenedor-izquierda {
     left: 0;
 }
-.contenedor.derecha {
+
+.contenedor-derecha {
     left: 50%;
 }
+
 .contenido {
     padding: 20px;
     background-color: white;
@@ -48,8 +53,9 @@ body {
     margin-right: 30px;
 }
 .fecha {
+    font-size: 1.2em;
+    margin-bottom: 10px;
     font-weight: bold;
-    font-size: 18px;
 }
 h2 {
     text-align: center;
